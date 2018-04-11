@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<body>
+
+    <script  src="/fusionchart.js/fusioncharts.js"></script>
+    <script  src="/fusionchart.js/fusioncharts.charts.js"></script>
+    <script  src="/fusionchart.js/fusioncharts.theme.fint.js"></script>
+    <script>
+       FusionCharts.ready(function(){
+    var revenueChart = new FusionCharts({
+        "type": "column2d",
+        "width": "260",
+        "height": "300",
+        "dataFormat": "json",
+        "dataSource": {
+            "chart": {
+                "caption": "Quarterly revenue for last year",
+                "subCaption": "Harry's SuperMart",
+                "palettecolors": "#2874A6",
+                "useplotgradientcolor": "0",
+                "yAxisName": "Revenues (In USD)",
+                "theme": "fint",
+                "showvalues": "0",
+                "yaxismaxvalue": "40000",
+                "yaxisminvalue": "0"
+            },
+            "data": [{
+                    "label": "Q1",
+                    "value": "16000"
+                },
+                {
+                    "label": "Q2",
+                    "value": "25300"
+                },
+                {
+                    "label": "Q3",
+                    "value": "10140"
+                },
+                {
+                    "label": "Q4",
+                    "value": "19140"
+                }
+            ]
+        }
+    });
+    revenueChart.render();
+ });
+ </script>
+</head>
+
+<div id="chartContainer">FusionCharts XT will load here!</div>
+</body>
+</html>
