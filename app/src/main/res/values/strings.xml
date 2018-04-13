@@ -1,12 +1,6 @@
 <resources>
-    <array name = "sleep">
-        <item>0 to 3 hours</item>
-        <item>3 to 6 hours</item>
-        <item>6 to 9 hours</item>
-        <item>9 hours or more</item>
-    </array>
 
-    <string name="app_name">Firebase Auth</string>
+    <string name="app_name">Health Tracker</string>
     <string name="action_sign_in_short">Register</string>
     <string name="email">Email</string>
     <string name="minimum_password">Password too short, enter minimum 6 characters!</string>
