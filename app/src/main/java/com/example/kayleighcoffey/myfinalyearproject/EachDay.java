@@ -16,9 +16,7 @@ import com.google.firebase.database.ValueEventListener;
 
 import java.util.ArrayList;
 
-/**
- * Created by Kayleigh Coffey on 20/03/2018.
- */
+
 
 public class EachDay extends MainActivity
 {

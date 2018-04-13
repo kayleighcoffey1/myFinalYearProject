@@ -20,7 +20,7 @@ import com.google.firebase.database.ValueEventListener;
 import java.util.ArrayList;
 
 /**
- * Created by Kayleigh Coffey on 28/03/2018.
+ * Takes in the drinks and displays results
  */
 
 public class Sec1_Steps_Drinks_2 extends AppCompatActivity

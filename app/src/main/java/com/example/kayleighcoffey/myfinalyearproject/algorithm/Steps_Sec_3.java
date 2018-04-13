@@ -15,7 +15,7 @@ import com.google.firebase.database.ValueEventListener;
 import java.util.Objects;
 
 /**
- * Created by Kayleigh Coffey on 29/03/2018.
+ * Class that takes in the steps
  */
 
 public class Steps_Sec_3 extends AppCompatActivity

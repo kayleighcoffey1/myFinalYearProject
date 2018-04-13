@@ -38,6 +38,9 @@ public class Sec6_Steps_Sleep extends AppCompatActivity
 
     public void mySleep(){
 
+        Intent i = getIntent();
+        final String product = i.getStringExtra("itemRef");
+
         // Day metrics - SLEEP
         myRef.child("day_metrics").child("Sleep_Duration").addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
@@ -49,10 +52,18 @@ public class Sec6_Steps_Sleep extends AppCompatActivity
                 if(iSleep < mySleep)
                 {
                     //.. go to function
+                    Intent intent = new Intent(Sec6_Steps_Sleep.this, Sec6_Steps_Drinks.class);
+                    intent.putExtra("itemRef", product);
+                    startActivity(intent);
+
                 }
                 else if(iSleep >= mySleep)
                 {
                     //.. go to function
+                    Intent intent = new Intent(Sec6_Steps_Sleep.this, Sec6_Step_Drinks_2.class);
+                    intent.putExtra("itemRef", product);
+                    startActivity(intent);
+
                 }
 
 

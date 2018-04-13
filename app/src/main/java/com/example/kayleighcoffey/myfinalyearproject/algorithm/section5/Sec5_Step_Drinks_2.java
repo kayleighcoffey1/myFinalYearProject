@@ -21,7 +21,7 @@ import com.google.firebase.database.ValueEventListener;
 import java.util.ArrayList;
 
 /**
- * Algorithm part 2 - Taking in the Steps
+ * Algorithm part 2 - Taking in the DRINKS
  */
 
 public class Sec5_Step_Drinks_2 extends AppCompatActivity

@@ -1,6 +1,5 @@
 package com.example.kayleighcoffey.myfinalyearproject;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
@@ -9,12 +8,6 @@ import android.support.design.widget.BottomNavigationView;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
-import android.webkit.WebSettings;
-import android.webkit.WebViewClient;
-import android.widget.ArrayAdapter;
-import android.widget.ListView;
-
-import com.example.kayleighcoffey.myfinalyearproject.Constructors.GetData;
 
 import com.example.kayleighcoffey.myfinalyearproject.algorithm.Algorithm_firstpage;
 import com.google.firebase.database.DataSnapshot;
@@ -24,26 +17,14 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 import com.jjoe64.graphview.DefaultLabelFormatter;
 import com.jjoe64.graphview.GraphView;
-import com.jjoe64.graphview.helper.StaticLabelsFormatter;
 import com.jjoe64.graphview.series.DataPoint;
 import com.jjoe64.graphview.series.LineGraphSeries;
 
 import java.util.ArrayList;
-import java.util.List;
 import java.util.Objects;
-import android.app.Activity;
-import android.os.Bundle;
-import android.view.View;
-import android.webkit.WebChromeClient;
-import android.webkit.WebView;
-import android.widget.EditText;
-import android.widget.TextView;
 
 import static com.example.kayleighcoffey.myfinalyearproject.R.*;
 
-/**
- * Created by Kayleigh Coffey on 05/04/2018.
- */
 
 public class Line_Chart extends AppCompatActivity {
 

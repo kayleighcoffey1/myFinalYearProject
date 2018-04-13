@@ -20,7 +20,7 @@ import com.google.firebase.database.ValueEventListener;
 import java.util.ArrayList;
 
 /**
- * Created by Kayleigh Coffey on 26/03/2018.
+ * CLASS TAKS IN DRINKS
  */
 
 public class Sec5_Steps_Drinks extends AppCompatActivity

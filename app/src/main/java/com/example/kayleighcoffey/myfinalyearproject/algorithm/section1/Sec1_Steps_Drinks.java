@@ -20,6 +20,7 @@ import com.google.firebase.database.ValueEventListener;
 import java.util.ArrayList;
 
 /**
+ * SLEEP CLASS
     * IF THE USER SLEPT LESS THAN 480 MINUTES - THIS CLASS IS CALLED
  */
 

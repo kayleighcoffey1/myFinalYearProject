@@ -1,10 +1,5 @@
 package com.example.kayleighcoffey.myfinalyearproject.Constructors;
 
-import java.util.HashMap;
-
-/**
- * Created by Kayleigh Coffey on 15/03/2018.
- */
 
 public class GetData {
 
@@ -14,10 +9,6 @@ public class GetData {
     private String mySleep;
     private String myDrink;
     private String myMood;
-
-
-
-
 
 
     public GetData(){
